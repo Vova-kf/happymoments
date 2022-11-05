@@ -1,0 +1,256 @@
+.modal {
+    position: fixed;
+    width: 500px;
+    min-height: 551px;
+    left: calc(50% - 250px);
+    top: 112px;
+    background: #FFFFFF;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.1);
+    z-index: 99999;
+    display: none;
+}
+
+.modal__header {
+    position: relative;
+    height: 80px;
+    background: #242132;
+}
+
+.modal__header h3 {
+    font-family: PT Sans Narrow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 3.2;
+    margin: 0;
+
+}
+
+.modal__header span {
+    color: #5E6065;
+    font-family: PT Sans Narrow;
+    font-size: 26px;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    cursor: pointer;
+
+}
+
+.modal__close {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 460px;
+    top: 30px;
+}
+
+.modal__content {
+    padding: 20px 100px;
+}
+
+.modal__content form p {
+    margin: 25px 0;
+}
+
+.modal__content form label {
+    font-family: B20 Sans;
+    font-size: 17px;
+    line-height: 25px;
+    color: #333333;
+
+}
+
+.modal__content form input {
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    font-family: B20 Sans;
+    font-size: 17px;
+    color: #828282;
+    padding-left: 10px;
+}
+
+.modal__content button {
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(0deg, #713E8B 35.23%, #D4242F 82.42%, #713E8B 122.62%);
+    border-radius: 30px;
+    font-family: PT Sans Narrow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.modal__content p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.modal__content a {
+    font-family: PT Sans Narrow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 25px;
+    text-decoration-line: underline;
+    color: #713E8B;
+}
+
+.modal__content a.btn {
+    margin-top: 25px;
+    display: block;
+    width: 100%;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #713E8B;
+    box-sizing: border-box;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: PT Sans Narrow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 2.3;
+    text-transform: uppercase;
+    color: #713E8B;
+    text-align: center;
+}
+
+.modal-blur {
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(22px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    display: none;
+}
+
+/* 
+Создать обявление=================================================================
+*/
+
+.create__modal {
+    position: fixed;
+    width: 579px;
+    height: 659px;
+    left: calc(50% - 250px);
+    top: 112px;
+    background: #ffffff;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.1);
+    z-index: 99999;
+    display: none;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.modal__header-create {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background: #242132;
+}
+
+.modal__header-create h3 {
+    font-family: PT Sans Narrow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 3.2;
+    margin: 0;
+}
+
+.modal__header-create span {
+    color: #5E6065;
+    font-family: PT Sans Narrow;
+    font-size: 26px;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    cursor: pointer;
+    left: 540px;
+}
+
+.modal__close-create {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 460px;
+    top: 30px;
+}
+
+.modal__content-create {
+    padding: 20px 100px;
+}
+
+.modal__content-create form {
+    position: absolute;
+    width: 475px;
+    height: 579px;
+    left: 52px;
+    top: 80px;
+}
+
+.modal__content-create form p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+}
+
+.modal__content-create .active {
+    font-family: B20 Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 25px;
+    color: #713E8B;
+}
+
+
+.modal__content-create form label {
+    font-family: B20 Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 25px;
+    color: #333333;
+}
+
+
+.modal__content-create form input {
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    font-family: B20 Sans;
+    font-size: 17px;
+    color: #828282;
+    width: 310px;
+}
+
+.modal__content-create button {
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(0deg, #713E8B 35.23%, #D4242F 82.42%, #713E8B 122.62%);
+    border-radius: 30px;
+    font-family: PT Sans Narrow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}

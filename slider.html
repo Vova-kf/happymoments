@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="widht=device-widht, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel=" preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/modal.css">
+    <link rel="stylesheet" type="text/css" href="css/slider.css">
+</head>
+
+<body>
+
+    <header>
+        <header class="header">
+            <div class="container_stroka">
+                <div class="header__stroka">
+                    <a href="#">О проекте</a>
+                    <a href="#">Реклама</a>
+                    <a href="#">Условия сотрудничества</a>
+                    <a href="#">ЧаВо</a>
+                </div>
+                <div class="header__stroka-registr">
+                    <img src="images/lang_icons/ru.svg">RU</img>
+                    <a class="btn" href="#">Регистрация</a>
+                    <a class="btn" id="btnModalLogin" href="#">Вход</a>
+                </div>
+            </div>
+            <div class="header__logo">
+                <div class="logo-container container">
+                    <div class="logo">
+                        <img src="images/logo.svg">
+                    </div>
+                    <ul>
+                        <li class="active"><a href="#">Услуги</a></li>
+                        <li><a href="#">Обьявления</a></li>
+                        <li><a href="#">Полезная информация</a></li>
+                    </ul>
+                    <div class="select-city" id="selectCity">
+                        Киев <img src="images/Vector.svg">
+                    </div>
+                </div>
+            </div>
+
+            <main class="main">
+
+                <div class="slider container">
+                    <div class="slider__photo">
+                        <img src="photos/1.jpg">
+                        <span class="prev"></span>
+                        <span class="next"></span>
+                    </div>
+                    <div class="slider__list">
+                        <img data-src="photos/1.jpg" src="photos/1.jpg" class="active">
+                        <img data-src="photos/2.jpg" src="photos/2.jpg">
+                        <img data-src="photos/3.jpg" src="photos/3.jpg">
+                        <img data-src="photos/4.jpg" src="photos/4.jpg">
+                        <img data-src="photos/5.jpg" src="photos/5.jpg">
+                        <img data-src="photos/6.jpg" src="photos/6.jpg">
+                        <img data-src="photos/7.jpg" src="photos/7.jpg">
+                    </div>
+                </div>
+            </main>
+
+
+            <footer>
+                <footer class="footer">
+                    <div class="footer__container-container">
+                        <div class="footer-top">
+                            <div class="footer__section-logo">
+                                <img src="images/logo.svg" alt="" />
+                                <ul>
+                                    <li>
+                                        <a href="#">О проекте </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Часто задаваемые вопросы </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Пользовательское соглашение</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Конфиденциальность
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer__section-land">
+                                <h3> ЯЗЫК САЙТА</h3>
+                                <ul>
+                                    <li class="active">
+                                        <a href="#">Русский</a>
+                                    </li>
+                                    <li class="active">
+                                        <a href="#">Українська</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">English</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Français</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Español</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Italiano</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Português</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Español (Mexico)</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Ελληνικά</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Polski</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Nederlands</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">語</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Česky</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Svenska</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Türkçe</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Español (Mexico)</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Ελληνικά</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Português (Brasil)</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Magyar</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer__section-contacts">
+                                <h3>СЛУЖБА ПОДДЕРЖКИ:</h3>
+
+                                <p><img src="images/contacts_icons/telephone.svg" />+38(066)462 77 76</p>
+                                <p><img src="images/contacts_icons/email.svg"><span>admin@happy.com</span></p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="footer__social">
+                                <h3>СЛЕДИТЕ ЗА НАМИ:</h3>
+                            </div>
+                            <div class="footer__social-icons">
+                                <p>
+                                    <img src="images/social_icons/circle/twitter.svg">
+                                </p>
+                                <p>
+                                    <img src="images/social_icons/circle/vk.svg">
+                                </p>
+                                <p>
+                                    <img src="images/social_icons/circle/facebook.svg">
+                                </p>
+                                <p>
+                                    <img src="images/social_icons/circle/youtube.svg">
+                                </p>
+                                <p>
+                                    <img src="images/social_icons/circle/instagram.svg">
+                                </p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="footer-bottom">
+                                <div class="container footer__bottom-container">
+                                    <p class="copyright"><span>Сделано в Украине с любовью компанией <a
+                                                href=">https://itbanda.pro">It Banda </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                </footer>
+            </footer>
+            <div class="modal modal-login" id="modalLogin">
+                <div class="modal__header">
+                    <h3>Авторизация</h3>
+                    <span class="modal__close">X</span>
+                </div>
+                <div class="modal__content">
+                    <form>
+                        <p>
+                            <label>Email *</label>
+                            <input type="email" name="emal" placeholder="Example@gmail.com">
+                        </p>
+                        <p>
+                            <label>Пароль *</label>
+                            <input type="password" name="pass" placeholder="Выдите ваш пароль">
+                        </p>
+                        <p>
+                            <button type="submit">Войти</button>
+                        </p>
+                    </form>
+                    <p> <a href="#">Забыли пароль</a> </p>
+                    <p> <a href="#">Не пришло письмо-подтверждение?</a> </p>
+
+                    <p> <a href="#" class="btn">Зарегистрироваться </a> </p>
+                </div>
+            </div>
+            <div class="modal-blur"></div>
+
+            <div class="create__modal">
+                <div class="modal__header-create">
+                    <h3>Новое обьявление</h3>
+                    <span class="modal__close-create">X</span>
+                </div>
+                <div class="modal__content-create">
+                    <form>
+                        <p>
+                            <label class="active">Ваше имя *</label>
+                            <input type="email" name="name" placeholder="Анатолий">
+                        </p>
+                        <p>
+                            <label class="active">Публичный e-mail *</label>
+                            <input type="password" name="pass" placeholder="Выдите ваш пароль">
+                        </p>
+                        <p>
+                            <label class="active">Телефон *</label>
+                            <input type="number" name="emal" placeholder="+38 ( ) _ __ __">
+                        </p>
+                        <p>
+                            <label>Услуга:</label>
+                            <input type="text" name="service" placeholder="Выберите какую услугу ищите ">
+                        </p>
+                        <p>
+                            <label>Дата:</label>
+                            <input type="number" name="data" placeholder="Дата">
+                        </p>
+                        <p>
+                            <label>Город:</label>
+                            <input type="text" name="city" placeholder="В каком городе ищите услугу">
+                        </p>
+                        <p>
+                            <label>Цена:</label>
+                            <input type="number" name="price" placeholder="Стоимость">
+                        </p>
+                        <p>
+                            <label>Количество часов:</label>
+                            <input type="number" name="hour" placeholder="Количество рабочих часов">
+                        </p>
+                        <p>
+                            <label>Комментарии:</label>
+                            <input type="text" name="comment" placeholder="Комментарии (пожелания к заказу)">
+                        </p>
+                        <button type="submit">Добавить обьявление</button>
+                        </p>
+                    </form>
+                </div>
+
+                <script src="js/script.js"></script>
+                <script src="js/model.js"></script>
+                <script src="js/slider.js"></script>
+
+</html>

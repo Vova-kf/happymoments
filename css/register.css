@@ -1,0 +1,107 @@
+.register__nav a{
+    font-family: B20 Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    color: #4F4F4F;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: PT Sans Narrow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #4F4F4F;
+}
+
+.register__version {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.register__version-performer button{
+    background: #f2f6f8; /* Цвет фона */
+    border: 1px solid #7a7b7e; /* Параметры рамки */
+    width: 35px; /* Ширина кнопки */
+    height: 35px; /* Высота */
+    border-radius: 30px;
+    margin: 0 20px;
+    color: #f2f6f8;
+}
+.register__version-client button{
+    background: #f2f6f8; /* Цвет фона */
+    border: 1px solid #7a7b7e; /* Параметры рамки */
+    width: 35px; /* Ширина кнопки */
+    height: 35px; /* Высота */
+    border-radius: 30px;
+    margin: 0 20px;
+    color: #f2f6f8;
+}
+.register__version button:hover{
+    border: 5px solid #BDBDBD;
+    box-sizing: border-box;
+    background: #713E8B;
+    cursor: pointer;
+    color: #713E8B;
+}
+
+
+
+
+.register__version p{
+    font-family: B20 Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+    color: #828282;
+}
+
+h2{
+    font-family: PT Sans Narrow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #4F4F4F;
+    margin-top: 230px;
+
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.social h3{
+    font-family: PT Sans Narrow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #4F4F4F;
+}
+.social a{
+    font-family: B20 Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 25px;
+    color: #4F4F4F;
+    text-decoration: none;
+}
+
+
+

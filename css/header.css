@@ -1,0 +1,255 @@
+/* stroka*/
+
+.container_stroka {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.header__stroka a {
+    text-decoration: none;
+    font-family: B20 Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #4F4F4F;
+    padding: 65px;
+}
+
+.header__stroka-registr .btn {
+    text-decoration: none;
+    padding: 7px 30px;
+}
+
+.header__stroka-registr img {
+    padding-right: 10px;
+    vertical-align: top;
+}
+
+.btn {
+    border: solid #713E8B;
+    color: #713E8B;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #713E8B;
+    color: #fff;
+    border: solid #333;
+}
+
+
+@media screen and (max-width: 768px) {
+	.container_stroka{
+height: auto;
+	}
+	
+	}
+
+	@media screen and (max-width: 418px) {
+		.container_stroka{
+			height: auto;
+	}
+	}
+@media screen and (max-width: 376px) {
+	.container_stroka{
+		height: auto;
+}
+}
+
+/* строка меню */
+
+.header__logo {
+    width: 100%;
+    height: 84px;
+    background: #242132;
+    border-top: 4px solid #713E8B;
+}
+
+.header__logo ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.header__logo ul li {
+    margin-right: 16px;
+    padding: 14px;
+}
+
+.header__logo ul li a {
+    font-family: PT Sans Narrow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header__logo ul li.active,
+.header__logo ul li:hover {
+    background: #713E8B;
+    position: relative;
+}
+
+.header__logo ul li.active:before,
+.header__logo ul li:hover:before {
+    content: "";
+    background: #713E8B;
+    width: 100%;
+    height: 28px;
+    top: -26px;
+    left: 0;
+    position: absolute;
+}
+
+.logo-container {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.header__logo .select-city {
+    font-family: B20 Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    color: #FFFFFF;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.header__logo .select-city img {
+    vertical-align: sub;
+    margin-left: 6px;
+}
+
+.header__logo .select-city.active img {
+    transform: rotate(90deg);
+}
+
+.header__cities {
+    height: 300px;
+    display: none;
+}
+
+.header__cities h3 {
+    font-family: PT Sans Narrow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #4F4F4F;
+    padding-left: 10px;
+}
+
+.header__cities ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    height: 140px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.header__cities li {
+    line-height: 20px;
+    padding-left: 10px;
+}
+
+.header__cities li a {
+    font-family: B20 Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    color: #4F4F4F;
+    text-decoration: none;
+}
+
+.header__cities li.active a {
+    background: rgba(113, 62, 139, 0.2);
+    border-radius: 5px;
+    padding: 0 10px;
+    margin-left: -10px;
+}
+
+/* Контент, кнопка создать обявление */
+
+.container_content {
+    background: url("../images/Golovn_Foto.png") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container_content h1 {
+    text-align: center;
+    font-family: PT Sans Narrow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 0 250px;
+}
+
+.container_content h1 span {
+    font-family: PT Sans Narrow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #713E8B;
+}
+
+.btn_create {
+    text-decoration: none;
+    text-align: center;
+    font-family: PT Sans Narrow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.btn_create a {
+    border: solid #713E8B;
+    margin-top: 50px;
+    border-radius: 30px;
+    padding: 10px 50px;
+    background-color: #713E8B;
+}
+
+.social_link {
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+    margin: 15px;
+    align-items: center;
+}
+
+.social_link a {
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    font-family: B20 Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+
+.social_link img {
+    padding: 5px;
+}
